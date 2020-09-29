@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    background-color: #D0ADA7;
+}
+
+/*general*/
+/*headers and text*/
+h1{
+    color: #5D2E46;
+    text-decoration: underline;
+    font-family: Monospace, 'Times New Roman', Times, serif; 
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    color: #5D2E46;
+    text-decoration: underline;
+    font-family: Monospace, 'Times New Roman', Times, serif; 
+}
+
+p{
+    color: white;
+    font-size: 1.5rem;
+    font-family: Monospace, 'Times New Roman', Times, serif; 
+}
+
+/*links*/
+a {
+    text-decoration: none; 
+    color: #B58DB6;
+}
+
+a:hover {
+    color: #5D2E46;
+}
+
+/*images and videos*/
+img {
+    border: .25rem solid #B58DB6;
+}
+
+video {
+    border: .25rem solid #B58DB6;
+}
+
+/*nav bar*/
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 1.25rem 0 1.25rem 0;
+    width: 100%;
+    position: fixed;
+    background-color: #D0ADA7;
+    border-bottom: .3rem double #E8D6CB;
+    z-index: 1;
+}
+
+ul.nav li {
+    font: 1.9rem monospace, 'Times New Roman', Times, serif;
+    float: left;
+    width: 20%;
+    text-align: center;
+    color: white;
+}
+
+ul.nav li.name {
+    color: #5D2E46;
+}
+
+ul.nav li a {
+    color: white; 
+}
+
+ul.nav li a.active {
+    color:  #AD6A6C;
+}
+
+ul.nav li a:hover {
+    color: #5D2E46;
+}
+
+/*home page*/
+#homePic {
+    margin: 12rem 0 0 2rem;
+
+}
+
+#homeHeader{
+    float: right;
+    margin: 11rem 30rem 0 0;
+}
+
+#homeText {
+    margin: -14rem 2rem 0 25rem;
+}
+
+/*fun stuff page*/
+#funStuffText{
+    padding: 6rem 2rem 0 2rem;
+}
+
+#bakingText{
+    padding: 0 1.5rem 0 1.5rem;
+}
+
+/*projects page*/
+#projectsText{
+    padding: 6rem 2rem 0 2rem;
+}
+
+/*resume page*/
+#resumeText{
+    padding: 6rem 2rem 0rem 2rem;
+}
+
+#resumeText p{
+    font: 1rem monospace, 'Times New Roman', Times, serif;
+}
+
+#resumeText td{
+    padding: 1rem;
+    color: white;
+    font: .75rem monospace, 'Times New Roman', Times, serif;
+}
+
+#resumeText .bold{
+    font: 1rem monospace, 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: bolder;
+}
+
+#resumeText .title, #resumeText a{
+    font: 1.25rem monospace, 'Times New Roman', Times, serif;
+    color: #B58DB6;
+    font-weight: bolder;
+}
+
+/*mobile sizing*/
+@media screen and (max-width: 900px) {
+    ul.nav {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    
+    ul.nav li a {
+        float: left;
+        padding: 15px;
+    }
+}
+  
+  @media screen and (max-width: 400px) {
+    ul.nav li a {
+      text-align: center;
+      float: none;
+    }
+}
