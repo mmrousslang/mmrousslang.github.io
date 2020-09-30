@@ -136,6 +136,10 @@ ul.nav li a:hover {
     font-weight: bolder;
 }
 
+#resumeText a:hover{
+    color: #5D2E46;
+}
+
 /*mobile sizing*/
 @media screen and (max-width: 900px) {
     #resumeText, #projectsText, #funStuffText{
