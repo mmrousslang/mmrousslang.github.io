@@ -115,23 +115,23 @@ ul.nav li a:hover {
 }
 
 #resumeText p{
-    font: 1rem monospace, 'Times New Roman', Times, serif;
+    font: 1.5rem monospace, 'Times New Roman', Times, serif;
 }
 
 #resumeText td{
     padding: 1rem;
     color: white;
-    font: .75rem monospace, 'Times New Roman', Times, serif;
+    font: 1.25rem monospace, 'Times New Roman', Times, serif;
 }
 
 #resumeText .bold{
-    font: 1rem monospace, 'Times New Roman', Times, serif;
+    font: 1.5rem monospace, 'Times New Roman', Times, serif;
     color: white;
     font-weight: bolder;
 }
 
 #resumeText .title, #resumeText a{
-    font: 1.25rem monospace, 'Times New Roman', Times, serif;
+    font: 1.75rem monospace, 'Times New Roman', Times, serif;
     color: #B58DB6;
     font-weight: bolder;
 }
