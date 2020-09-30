@@ -106,12 +106,12 @@ ul.nav li a:hover {
 
 /*projects page*/
 #projectsText{
-    padding: 6rem 2rem 0 2rem;
+    padding: 8rem 2rem 0 2rem;
 }
 
 /*resume page*/
 #resumeText{
-    padding: 6rem 2rem 0rem 2rem;
+    padding: 8rem 2rem 0rem 2rem;
 }
 
 #resumeText p{
@@ -138,21 +138,18 @@ ul.nav li a:hover {
 
 /*mobile sizing*/
 @media screen and (max-width: 900px) {
-    ul.nav {
-      width: 100%;
-      height: auto;
-      position: relative;
+    #resumeText, #projectsText, #funStuffText{
+        padding-top: 15rem;
     }
-    
-    ul.nav li a {
-        float: left;
-        padding: 15px;
+
+    #homePic, #homeHeader {
+        margin-top: 16rem;
     }
-}
-  
-  @media screen and (max-width: 400px) {
-    ul.nav li a {
-      text-align: center;
+
+    ul.nav li {
       float: none;
+      display: block;
+      width: 100%;
+      text-align: left;
     }
-}
+  }
